@@ -1,0 +1,14 @@
+h1 {
+    background-color: black;
+    color:azure; 
+}
+
+td#cabeçalho {
+    background-color: gray;
+
+}
+
+table, th, td  {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
