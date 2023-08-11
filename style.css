@@ -1,14 +1,21 @@
 h1 {
     background-color: black;
-    color:azure; 
+    color:rgb(255, 255, 255); 
 }
 
 td#cabeçalho {
     background-color: gray;
+    border: 1px solid black;
+    color:rgb(255, 255, 255); 
 
 }
 
 table, th, td  {
     border-collapse: collapse;
     border: 1px solid black;
+}
+
+td#1 {
+    color:gray;
+    text-decoration: underline;
 }
