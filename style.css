@@ -1,21 +1,49 @@
-h1 {
-    background-color: black;
-    color:rgb(255, 255, 255); 
-}
-
-td#cabeçalho {
+body {
+    font-family: Arial, sans-serif;
     background-color: gray;
-    border: 1px solid black;
-    color:rgb(255, 255, 255); 
-
 }
 
-table, th, td  {
+table {
     border-collapse: collapse;
-    border: 1px solid black;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    white-space: nowrap;
 }
 
-td#1 {
-    color:gray;
-    text-decoration: underline;
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    background-color: darkgray;
+    color: white;
+    border: 4px solid white;
+    padding: 8px;
+    text-align: center;
+}
+
+.tituloColuna {
+    background-color: black;
+    height: 55px;
+    font-size: 15px;
+}
+
+.subTituloColuna {
+    background-color: grey; 
+}
+
+td {
+    border: 4px solid white;
+    padding: 8px;
+    text-align: center;
+    background-color: lightgray;
 }
