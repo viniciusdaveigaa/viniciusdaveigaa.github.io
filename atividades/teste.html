@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divs nos Cantos</title>
+    <style>
+        /* Estilos para o container */
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .container {
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Estilos para as divs */
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc; /* Cor de fundo das divs */
+            margin: 10px;
+        }
+
+        .top-left {
+            order: 1;
+        }
+
+        .top-right {
+            order: 2;
+        }
+
+        .bottom-left {
+            order: 3;
+        }
+
+        .bottom-right {
+            order: 4;
+        }
+
+        .center {
+            order: 5;
+            flex: 0 0 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-left"></div>
+        <div class="top-right"></div>
+        <div class="bottom-left"></div>
+        <div class="bottom-right"></div>
+        <div class="center"></div>
+    </div>
+</body>
+</html>

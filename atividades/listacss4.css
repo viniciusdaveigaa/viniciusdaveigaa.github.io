@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 500px;
+    height: 500px;
+    background-color: #ccc;
+    position: relative;
+}
+
+.centralizada {
+    width: 500px;
+    height: 500px;
+    background-color: #ccc; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda-cima {
+    background-color: blue;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.direita-cima {
+    background-color: red;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.esquerda-baixo {
+    background-color: orange;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.direita-baixo {
+    background-color: green;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.nome {
+    font-size: 18px;
+}
+
